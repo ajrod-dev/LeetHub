@@ -11,8 +11,10 @@ def roman_to_int(s)
 
     answer = 0
     prior_v = 0
+    reversed_s = s.reverse
 
-    s.reverse.each_char do |char|
+
+    reversed_s.each_char do |char|
         val = values[char]
 
         if val < prior_v
@@ -25,4 +27,4 @@ def roman_to_int(s)
     answer
 end
 
-puts roman_to_int('III')
+puts roman_to_int('XVIII')
