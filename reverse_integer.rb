@@ -13,7 +13,6 @@ def reverse(x)
     else
     	result
     end
-    result
 end
 
 puts reverse(-123)
