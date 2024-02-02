@@ -1,4 +1,4 @@
-def length_of_longest_substring(s)
+def longest_substring(s)
     return 0 if s.nil? || s.empty?
 
     i = 0
