@@ -19,8 +19,6 @@ def longest_substring(s)
     max_length = [max_length, str.length].max  # Update max_length after the loop completes
 end
 
-# Example usage:
-puts length_of_longest_substring("dvdf")  # Output: 3
+puts longest_substring("dvdf")  
 
 
-puts length_of_longest_substring("au")
